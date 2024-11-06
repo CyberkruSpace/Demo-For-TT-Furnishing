@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/TT-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/TT-icon.png" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <meta name = "format-detection" content = "telephone=no" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/carousel.css" type="text/css" media="screen">
+    
+		<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.equalheights.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" language="javascript">
+    $(window).load(function(){
+    jQuery(".maxheight").equalHeights();
+    if ( $(window).width() > 767) {
+           $('#carousel-fred').carouFredSel({
+            auto: false,
+            responsive: true,
+            width: '100%',    
+            scroll: 1,
+            prev: '#prev',
+            next: '#next',
+            pagination: false, 
+            mousewheel: true,
+            items: {
+            height: 'auto',
+            width: '900',
+            visible: {
+            min: 3,
+            max: 3
+            }
+            },
+            swipe: {
+              onMouse: true,
+              onTouch: true
+              }
+            });
+      } else {
+           $('#carousel-fred').carouFredSel({
+          auto: false,
+          responsive: true,
+          width: '100%',    
+          scroll: 1,
+          prev: '#prev',
+          next: '#next',
+          pagination: false,
+          mousewheel: true,
+          items: {
+          height: 'auto',
+          width: '320',
+          visible: {
+          min: 1,
+          max: 3
+          }
+          },
+          swipe: {
+            onMouse: true,
+            onTouch: true
+            }
+          });
+      }
+    //  Responsive layout, resizing the items
+   
+
+
+
+    });
+  </script>
+</head>
+
+<body id="home-page">
+<!--==============================header=================================-->
+<header>
+    <div class="container">
+         <div class="navbar navbar_ clearfix">
+            <div class="navbar-inner">      
+                  <div class="clearfix">
+                  	<h1 class="brand"><a href="index.html"><img src="img/TT-Logo.png" alt=""></a><span>Home Furnishing</span></h1>
+                  	<div class="nav-collapse nav-collapse_ collapse">
+                  	    <ul class="nav sf-menu clearfix">
+                  	      <li class="active"><a href="index.html">About Us</a></li>
+                  	      <li class="sub-menu"><a href="index-1.html">Services</a></li>
+                  	      <li><a href="index-2.html">Catalogue</a></li>
+                  	      <li><a href="index-4.html">Contacts</a></li>
+                  	    </ul>
+                  	</div>
+                  </div>
+             </div>  
+         </div>
+    </div>
+</header>
+<div id="content">
+<div class="list_carousel responsive">
+        <ul id="carousel-fred">      
+            <li><img src="img/slide.jpg" alt=""></li>
+            <li><img src="img/slide-1.jpg" alt=""></li>
+            <li><img src="img/slide-2.jpg" alt=""></li>
+            <li><img src="img/slide-3.jpg" alt=""></li>
+            <li><img src="img/slide-4.jpg" alt=""></li>
+        </ul>
+        <div class="div-control">
+          <a href="#" id="prev"></a>
+          <a href="#" id="next"></a>
+        </div>
+</div>
+
+
+  <div class="light-content">
+    <div class="container"> 
+          <div class="row">
+               <ul class="thumbnails">
+                 <li class="thumbnail span3">
+                   <div class="block-thumbnail maxheight">
+                     <figure class="img-polaroid"><img src="img/page-img.jpg" alt=""></figure>
+                     <h2>Platform Beds</h2>
+                     <span class="font11">ferruoais lasuasiuaysa
+    dolores easertne voptate msequi hertys vtraesa</span>
+                      <p>Monlaseertser loms gravida atrsus neuct
+    us aloecenmagna onec accumsan malesea
+    asit acone nataytsertas eluriser lasusras 
+    erment keuetrears miuasade</p>
+                      <a href="#" class="btn btn-1">read more</a>
+                   </div>
+                 </li>
+                 <li class="thumbnail span3">
+                   <div class="block-thumbnail maxheight">
+                     <figure class="img-polaroid"><img src="img/page-img-1.jpg" alt=""></figure>
+                     <h2>Office Furnishing</h2>
+                     <span class="font11">quntugni  juyatsas nausy
+    dolores easertne voptate msequi miuasas lamayste</span>
+                      <p>Aloecenonec accumsan malesea
+    asit acone nataytsertas eluriser lasusras 
+    erment keuetrears miuasadeaoreet 
+    aliquam leotellus.</p>
+                      <a href="#" class="btn btn-1">read more</a>
+                   </div>
+                 </li>
+                 <li class="thumbnail span3">
+                   <div class="block-thumbnail maxheight">
+                     <figure class="img-polaroid"><img src="img/page-img-2.jpg" alt=""></figure>
+                     <h2>Canopy Beds</h2>
+                     <span class="font11">miutyas loiyas quntusera
+    dolores easertne voptate msequi retyade bytrasa</span>
+                      <p>Gasaser loms gravida atrsus neuct
+    aloecenmagna onec accumsan malesea
+    asit acone nataytsertas eluriser lasusras 
+    erment keuetrears.</p>
+                      <a href="#" class="btn btn-1">read more</a>
+                   </div>
+                 </li>
+                 <li class="thumbnail span3">
+                   <div class="block-thumbnail maxheight">
+                     <figure class="img-polaroid"><img src="img/page-img-3.jpg" alt=""></figure>
+                     <h2>Living Room Furnishing</h2>
+                     <span class="font11">brtsauonse quntugni 
+    asertne voptate msequi vaetase derasules ausha</span>
+                      <p>Bastrtser lomravida atrsus neuct
+    us aloecenmagna onec accumsan malesea
+    asit acone nataytsertas eluriser lasusras 
+    keuetrears miuasade</p>
+                      <a href="#" class="btn btn-1">read more</a>
+                   </div>
+                 </li>
+               </ul>
+          </div>
+          <div class="row">
+            <article class="span12">
+              <div class="banner">
+                <span><em>We</em> RELEASE  <strong><span>NEW</span> collection</strong></span>
+                <strong>2013 kasiauts alskua miytrasas </strong>
+                <p>Beciegast nveriti vitaesaert  asety kertya aset aplicabrde ertyasnemo <span>eniptaiades uytrsas</span> leyrterteertas bytrasa.</p>
+              </div>
+            </article>
+          </div>
+          
+    </div>
+  </div>
+</div>
+<div class="container block-container">
+<div class="row">
+    <div class="div-block-container">
+      <article class="span2">
+        <div class="div-list">
+          <ul class="list">
+            <li><a href="#">photo gallery</a></li>
+            <li><a href="#">news &amp; events</a></li>
+            <li><a href="#">useful advice</a></li>
+            <li><a href="#">our staff</a></li>
+            <li><a href="#">links</a></li>
+          </ul>
+        </div>
+      </article>
+      <article class="span9 offset1">
+        <div class="row">
+          <article class="span4">
+            <h2>Latest Projects</h2>
+            <div class="block-indent">
+              <figure class="img-polaroid-1"><img src="img/page-img-4.png" alt=""></figure>
+              <div class="extra-wrap">
+                <h3>kyatsas liuaysas</h3>
+                <p>Monlase dusce hertser loms
+                gravida atrsus aloecen
+                magna onec accumsan male
+                asit acone uyatsaser.</p>
+                <a href="#" class="link">read more</a>
+              </div>
+            </div>
+          </article>
+          <article class="span5">
+            <h2>New Publications</h2>
+            <div class="block-indent">
+              <figure class="img-polaroid-1"><img src="img/page-img-5.png" alt=""></figure>
+              <div class="extra-wrap">
+                <h3>fertarsa Jauystas eras</h3>
+                <p>Kerta duscertser lomseaser baytsras
+gravida atrsueuctus aloeceasa uhasasertases
+magna onec accumsan maledas nauysase
+asiconer adipisc byresasa.</p>
+                <a href="#" class="link">read more</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </article>
+    </div>
+</div>
+<footer>
+     <div class="row">
+         <article class="span12">
+               <div class="footer-div"><span><span>TT</span>Home Furnishing &copy; 2013 <span>•</span> &nbsp;</span><a href="cyberkru.co.za">Designed by CyberKru</a></div>
+               <ul class="soc-icons">
+                 <li><a href="#" class="icon"></a></li>
+                 <li><a href="#" class="icon-1"></a></li>
+                 <li><a href="#" class="icon-2"></a></li>
+                 <li><a href="#" class="icon-3"></a></li>
+               </ul>
+         </article>
+     </div>
+</footer>
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
